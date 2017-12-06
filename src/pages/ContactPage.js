@@ -7,7 +7,7 @@ export default class ContactPage extends Component {
    drawerIcon: ({ tintColor }) => (
      <Image
        source={require('../img/home.png')}
-       style={[styles.icon, {tintColor: 'blue'}]}
+       style={[styles.icon, {tintColor: 'orange'}]}
      />
    ),
  };

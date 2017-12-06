@@ -5,10 +5,10 @@ import { Constants, Svg } from 'expo';
 export default class HomePage extends Component {
  static navigationOptions = {
    drawerLabel: 'Home',
-   drawerIcon: ({ tintColor }) => (
+   drawerIcon: () => (
      <Image
        source={require('../img/home.png')}
-       style={[styles.icon, {tintColor: 'red'}]}
+       style={styles.icon}
      />
    ),
  };
