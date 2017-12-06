@@ -21,10 +21,6 @@ export default class InfoPage extends Component {
        title="Go to contact"
      />
      <Button
-       onPress={() => this.props.navigation.navigate('Info')}
-       title="Go to info"
-     />
-     <Button
        onPress={() => this.props.navigation.navigate('Home')}
        title="Go to home"
      />

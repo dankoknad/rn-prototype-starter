@@ -17,10 +17,6 @@ export default class ContactPage extends Component {
    <View style={styles.container}>
      <Text>You are on the Contact page</Text>
      <Button
-       onPress={() => this.props.navigation.navigate('Contact')}
-       title="Go to contact"
-     />
-     <Button
        onPress={() => this.props.navigation.navigate('Info')}
        title="Go to info"
      />

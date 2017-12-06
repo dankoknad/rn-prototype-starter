@@ -24,10 +24,6 @@ export default class HomePage extends Component {
         onPress={() => this.props.navigation.navigate('Info')}
         title="Go to info"
       />
-      <Button
-        onPress={() => this.props.navigation.navigate('Home')}
-        title="Go to home"
-      />
     </View>
    );
  }
