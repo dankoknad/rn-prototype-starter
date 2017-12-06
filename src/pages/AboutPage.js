@@ -13,7 +13,6 @@ export default class AboutPage extends Component {
  };
 
  render() {
-  console.log(this.props);
   return (
    <View style={styles.container}>
      <Text>You are on the About page</Text>

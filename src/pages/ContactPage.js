@@ -13,7 +13,6 @@ export default class ContactPage extends Component {
  };
 
  render() {
-  console.log(this.props);
   return (
    <View style={styles.container}>
      <Text>You are on the Contact page</Text>

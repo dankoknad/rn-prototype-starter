@@ -14,8 +14,6 @@ export default class HomePage extends Component {
  };
 
  render() {
-  console.log(this.props.navigation);
-  console.log(this.props.navigation.state);
    return (
     <View style={styles.container}>
       <Text>You are on the Home page</Text>
