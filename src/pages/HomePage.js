@@ -13,6 +13,8 @@ export default class HomePage extends Component {
  };
 
  render() {
+  console.log(this.props.navigation);
+  console.log(this.props.navigation.state);
    return (
     <View style={styles.container}>
       <Text>You are on the Home page</Text>
@@ -21,8 +23,8 @@ export default class HomePage extends Component {
         title="Go to contact"
       />
       <Button
-        onPress={() => this.props.navigation.navigate('Info')}
-        title="Go to info"
+        onPress={() => this.props.navigation.navigate('About')}
+        title="Go to about"
       />
     </View>
    );

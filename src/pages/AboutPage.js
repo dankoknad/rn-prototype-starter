@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
 
-export default class InfoPage extends Component {
+export default class AboutPage extends Component {
  static navigationOptions = {
-   drawerLabel: 'Info',
+   drawerLabel: 'About',
    drawerIcon: ({ tintColor }) => (
      <Image
        source={require('../img/home.png')}
@@ -13,9 +13,10 @@ export default class InfoPage extends Component {
  };
 
  render() {
+  console.log(this.props);
   return (
    <View style={styles.container}>
-     <Text>You are on the Info page</Text>
+     <Text>You are on the About page</Text>
      <Button
        onPress={() => this.props.navigation.navigate('Contact')}
        title="Go to contact"

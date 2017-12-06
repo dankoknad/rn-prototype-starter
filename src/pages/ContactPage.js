@@ -13,12 +13,13 @@ export default class ContactPage extends Component {
  };
 
  render() {
+  console.log(this.props);
   return (
    <View style={styles.container}>
      <Text>You are on the Contact page</Text>
      <Button
-       onPress={() => this.props.navigation.navigate('Info')}
-       title="Go to info"
+       onPress={() => this.props.navigation.navigate('About')}
+       title="Go to about"
      />
      <Button
        onPress={() => this.props.navigation.navigate('Home')}
