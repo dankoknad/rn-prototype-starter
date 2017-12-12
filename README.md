@@ -1,4 +1,10 @@
-This project serves me as a strting point for developing mobile prototypes with React Native 
+## What this is
+
+__This is a customized boilerplate for developing mobile prototypes with React Native__
+
+Boilerplate have drawer menu from [React Navigation](https://reactnavigation.org/docs/navigators/drawer) and three simple screens: Home, About & Contact.
+
+---
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
