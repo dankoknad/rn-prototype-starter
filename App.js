@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import HomePage from './src/pages/HomePage'
-import AboutPage from './src/pages/AboutPage'
-import ContactPage from './src/pages/ContactPage'
+import HomeScreen from './src/screens/HomeScreen'
+import AboutScreen from './src/screens/AboutScreen'
+import ContactScreen from './src/screens/ContactScreen'
 
 import {
   DrawerNavigator,
@@ -11,13 +11,13 @@ import {
 
 const App = DrawerNavigator({
   Home: {
-    screen: HomePage,
+    screen: HomeScreen,
   },
   About: {
-    screen: AboutPage,
+    screen: AboutScreen,
   },
   Contact: {
-    screen: ContactPage,
+    screen: ContactScreen,
   },
 })
 

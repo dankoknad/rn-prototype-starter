@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { StyleSheet, Text, View, Button, Image } from 'react-native'
 
-export default class HomePage extends Component {
+export default class HomeScreen extends Component {
   static navigationOptions = {
     drawerLabel: 'Home',
     drawerIcon: () => (
@@ -15,7 +15,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>You are on the Home page</Text>
+        <Text>You are on the Home screen</Text>
         <Button
           onPress={() => this.props.navigation.navigate('Contact')}
           title="Go to contact"
